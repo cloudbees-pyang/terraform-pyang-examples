@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_vm" {
-  ami           = "cb-se-workspace-caching-s3-user"  
+  ami           = "ami-004686234852ad556"  
   instance_type = "t2.micro"
 
   tags = {
